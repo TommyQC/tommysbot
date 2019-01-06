@@ -10,7 +10,7 @@ const queue = new Map();
 
 var servers = {};
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_T0KEN);
 
 function play(connection, message) {
   

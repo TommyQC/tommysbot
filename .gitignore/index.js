@@ -10,7 +10,7 @@ client.login(process.env.token);
 
 client.on("ready", () => {
     console.log("prêt")
-    client.user.setGame("Vous répondre!")
+    client.user.setGame("caca")
 });
 
 client.on('message', message => {

@@ -23,6 +23,14 @@ client.on('message', message => {
 
 client.on('message', message => {
 
+    if (message.content === "non"){
+        message.reply("euh oui");
+        console.log('le bot dit bonjour');
+    }
+});
+
+client.on('message', message => {
+
     if (message.content === ":thinking:"){
         message.reply("toi même espèce de tink2");
         console.log('le bot dit bonjour');

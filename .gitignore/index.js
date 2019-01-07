@@ -23,6 +23,22 @@ client.on('message', message => {
 
 client.on('message', message => {
 
+    if (message.content === ":thinking:"){
+        message.reply("toi même espèce de tink2");
+        console.log('le bot dit bonjour');
+    }
+});
+
+client.on('message', message => {
+
+    if (message.content === "MEURS ESPÈCE DE BOT LAITE"){
+        message.reply("toi même espèce de lait au chocolat");
+        console.log('le bot dit bonjour');
+    }
+});
+
+client.on('message', message => {
+
     if (message.content === "fuck you"){
         message.reply("toi même");
         console.log('le bot dit bonjour');

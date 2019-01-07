@@ -201,7 +201,7 @@ client.on('message', message => {
       
     if(message.content === prefix + "information") {
         var info_embed = new Discord.RichEmbed()
-        .setColor("#CCCC00")
+        .setColor("RANDOM")
         .setTitle("Informations du bot et du serveur")
         .addField(":robot: Nom du bot: ", `${client.user.tag}`, true)
         .addField("Le # du bot", `#${client.user.discriminator}`)

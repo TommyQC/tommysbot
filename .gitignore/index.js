@@ -23,6 +23,14 @@ client.on('message', message => {
 
 client.on('message', message => {
 
+    if (message.content === "fuck you"){
+        message.reply("toi même");
+        console.log('le bot dit bonjour');
+    }
+});
+
+client.on('message', message => {
+
     if (message.content === "salut"){
         message.reply("Hey, salut comment ça va?");
         console.log('le bot dit bonjour');

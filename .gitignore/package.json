@@ -1,97 +1,122 @@
 {
-  "requires": true,
-  "lockfileVersion": 1,
+  "_from": "discord.js",
+  "_id": "discord.js@11.4.2",
+  "_inBundle": false,
+  "_integrity": "sha512-MDwpu0lMFTjqomijDl1Ed9miMQe6kB4ifKdP28QZllmLv/HVOJXhatRgjS8urp/wBlOfx+qAYSXcdI5cKGYsfg==",
+  "_location": "/discord.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "discord.js",
+    "name": "discord.js",
+    "escapedName": "discord.js",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/discord.js/-/discord.js-11.4.2.tgz",
+  "_shasum": "54586981926521572051f2a30b984aad2b49786e",
+  "_spec": "discord.js",
+  "_where": "C:\\Users\\Tom\\Desktop\\Tommy's Bot",
+  "author": {
+    "name": "Amish Shah",
+    "email": "amishshah.2k@gmail.com"
+  },
+  "browser": {
+    "ws": false,
+    "uws": false,
+    "erlpack": false,
+    "prism-media": false,
+    "opusscript": false,
+    "node-opus": false,
+    "tweetnacl": false,
+    "sodium": false,
+    "src/sharding/Shard.js": false,
+    "src/sharding/ShardClientUtil.js": false,
+    "src/sharding/ShardingManager.js": false,
+    "src/client/voice/dispatcher/StreamDispatcher.js": false,
+    "src/client/voice/opus/BaseOpusEngine.js": false,
+    "src/client/voice/opus/NodeOpusEngine.js": false,
+    "src/client/voice/opus/OpusEngineList.js": false,
+    "src/client/voice/opus/OpusScriptEngine.js": false,
+    "src/client/voice/pcm/ConverterEngine.js": false,
+    "src/client/voice/pcm/ConverterEngineList.js": false,
+    "src/client/voice/pcm/FfmpegConverterEngine.js": false,
+    "src/client/voice/player/AudioPlayer.js": false,
+    "src/client/voice/receiver/VoiceReadable.js": false,
+    "src/client/voice/receiver/VoiceReceiver.js": false,
+    "src/client/voice/util/Secretbox.js": false,
+    "src/client/voice/util/SecretKey.js": false,
+    "src/client/voice/util/VolumeInterface.js": false,
+    "src/client/voice/ClientVoiceManager.js": false,
+    "src/client/voice/VoiceBroadcast.js": false,
+    "src/client/voice/VoiceConnection.js": false,
+    "src/client/voice/VoiceUDPClient.js": false,
+    "src/client/voice/VoiceWebSocket.js": false
+  },
+  "bugs": {
+    "url": "https://github.com/discordjs/discord.js/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
-    "async-limiter": {
-      "version": "1.0.0",
-      "resolved": "https://registry.npmjs.org/async-limiter/-/async-limiter-1.0.0.tgz",
-      "integrity": "sha512-jp/uFnooOiO+L211eZOoSyzpOITMXx1rBITauYykG3BRYPu8h0UcxsPNB04RR5vo4Tyz3+ay17tR6JVf9qzYWg=="
-    },
-    "discord.js": {
-      "version": "11.4.2",
-      "resolved": "https://registry.npmjs.org/discord.js/-/discord.js-11.4.2.tgz",
-      "integrity": "sha512-MDwpu0lMFTjqomijDl1Ed9miMQe6kB4ifKdP28QZllmLv/HVOJXhatRgjS8urp/wBlOfx+qAYSXcdI5cKGYsfg==",
-      "requires": {
-        "long": "^4.0.0",
-        "prism-media": "^0.0.3",
-        "snekfetch": "^3.6.4",
-        "tweetnacl": "^1.0.0",
-        "ws": "^4.0.0"
-      }
-    },
-    "html-entities": {
-      "version": "1.2.1",
-      "resolved": "https://registry.npmjs.org/html-entities/-/html-entities-1.2.1.tgz",
-      "integrity": "sha1-DfKTUfByEWNRXfueVUPl9u7VFi8="
-    },
-    "long": {
-      "version": "4.0.0",
-      "resolved": "https://registry.npmjs.org/long/-/long-4.0.0.tgz",
-      "integrity": "sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA=="
-    },
-    "m3u8stream": {
-      "version": "0.6.2",
-      "resolved": "https://registry.npmjs.org/m3u8stream/-/m3u8stream-0.6.2.tgz",
-      "integrity": "sha512-WsuM2bd5pPN80xvfrB+1DZqr4M7+kJl8byi6+ZCy6cmVjEiHhmr/desN53Ngsa6Hs13kYumeVgT4wL0oIJ+v6g==",
-      "requires": {
-        "miniget": "^1.4.0",
-        "sax": "^1.2.4"
-      }
-    },
-    "miniget": {
-      "version": "1.5.1",
-      "resolved": "https://registry.npmjs.org/miniget/-/miniget-1.5.1.tgz",
-      "integrity": "sha512-KJ3AyIVZ76QuWAq43BWjkK+jLdhxhy3s4tsdg9Je91+cIFkeOSW2VEj2lSeKw50CPu1eCCkSbiQEBKL36mpA5w=="
-    },
-    "opusscript": {
-      "version": "0.0.6",
-      "resolved": "https://registry.npmjs.org/opusscript/-/opusscript-0.0.6.tgz",
-      "integrity": "sha512-F7nx1SWZCD5Rq2W+5Fx39HlkRkz/5Zqt0LglEB9uHexk8HjedDEiM+u/Y2rBfDFcS/0uQIWu2lJhw+Gjsta+cA=="
-    },
-    "prism-media": {
-      "version": "0.0.3",
-      "resolved": "https://registry.npmjs.org/prism-media/-/prism-media-0.0.3.tgz",
-      "integrity": "sha512-c9KkNifSMU/iXT8FFTaBwBMr+rdVcN+H/uNv1o+CuFeTThNZNTOrQ+RgXA1yL/DeLk098duAeRPP3QNPNbhxYQ=="
-    },
-    "safe-buffer": {
-      "version": "5.1.2",
-      "resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz",
-      "integrity": "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g=="
-    },
-    "sax": {
-      "version": "1.2.4",
-      "resolved": "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz",
-      "integrity": "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw=="
-    },
-    "snekfetch": {
-      "version": "3.6.4",
-      "resolved": "https://registry.npmjs.org/snekfetch/-/snekfetch-3.6.4.tgz",
-      "integrity": "sha512-NjxjITIj04Ffqid5lqr7XdgwM7X61c/Dns073Ly170bPQHLm6jkmelye/eglS++1nfTWktpP6Y2bFXjdPlQqdw=="
-    },
-    "tweetnacl": {
-      "version": "1.0.0",
-      "resolved": "https://registry.npmjs.org/tweetnacl/-/tweetnacl-1.0.0.tgz",
-      "integrity": "sha1-cT2LgY2kIGh0C/aDhtBHnmb8ins="
-    },
-    "ws": {
-      "version": "4.1.0",
-      "resolved": "http://registry.npmjs.org/ws/-/ws-4.1.0.tgz",
-      "integrity": "sha512-ZGh/8kF9rrRNffkLFV4AzhvooEclrOH0xaugmqGsIfFgOE/pIz4fMc4Ef+5HSQqTEug2S9JZIWDR47duDSLfaA==",
-      "requires": {
-        "async-limiter": "~1.0.0",
-        "safe-buffer": "~5.1.0"
-      }
-    },
-    "ytdl-core": {
-      "version": "0.28.3",
-      "resolved": "https://registry.npmjs.org/ytdl-core/-/ytdl-core-0.28.3.tgz",
-      "integrity": "sha512-PbUEY7viwO6mJjsZN3vpnjNfpB747rNva3YbOJ9iTM9MtDt2CFcZov4K3Agf22pt/EuPc4zKnk/97K7TeS04yw==",
-      "requires": {
-        "html-entities": "^1.1.3",
-        "m3u8stream": "^0.6.2",
-        "miniget": "^1.4.0",
-        "sax": "^1.1.3"
-      }
-    }
-  }
+    "long": "^4.0.0",
+    "prism-media": "^0.0.3",
+    "snekfetch": "^3.6.4",
+    "tweetnacl": "^1.0.0",
+    "ws": "^4.0.0"
+  },
+  "deprecated": false,
+  "description": "A powerful library for interacting with the Discord API",
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "discord.js-docgen": "github:discordjs/docgen",
+    "eslint": "^4.18.0",
+    "parallel-webpack": "^2.2.0",
+    "uglifyjs-webpack-plugin": "^1.2.0",
+    "webpack": "^3.11.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/discordjs/discord.js#readme",
+  "keywords": [
+    "discord",
+    "api",
+    "bot",
+    "client",
+    "node",
+    "discordapp"
+  ],
+  "license": "Apache-2.0",
+  "main": "./src/index",
+  "name": "discord.js",
+  "peerDependencies": {
+    "bufferutil": "^3.0.3",
+    "erlpack": "discordapp/erlpack",
+    "node-opus": "^0.2.7",
+    "opusscript": "^0.0.6",
+    "sodium": "^2.0.3",
+    "libsodium-wrappers": "^0.7.3",
+    "uws": "^9.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discordjs/discord.js.git"
+  },
+  "runkitExampleFilename": "./docs/examples/ping.js",
+  "scripts": {
+    "docs": "docgen --source src --custom docs/index.yml --output docs/docs.json",
+    "docs:test": "docgen --source src --custom docs/index.yml",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix src",
+    "test": "npm run lint && npm run docs:test",
+    "webpack": "parallel-webpack"
+  },
+  "types": "./typings/index.d.ts",
+  "version": "11.4.2"
 }

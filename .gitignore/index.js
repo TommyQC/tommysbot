@@ -207,7 +207,6 @@ client.on('message', message => {
         .addField("Le # du bot", `#${client.user.discriminator}`)
         .addField("ID du bot:", `${client.user.id}`)
         .addField("Nombre de participants:", message.guild.members.size)
-        .addField("Nombre de Salons et catégorie", message.guild.channel.size)
         .setFooter("Informations sur le serveur et le Tommy's Bot")
         .setTimestamp()
         message.channel.sendMessage(info_embed)

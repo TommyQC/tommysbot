@@ -4,29 +4,9 @@ const client = new Discord.Client();
 
 var prefix = "!";
 
-const ytdl = require('ytdl-core');
-
-const queue = new Map();
-
 var servers = {};
 
 client.login(process.env.token);
-
-function play(connection, message) {
-  
-    var server = servers[message.guild.id];
-  
-    server.dispatcher = connection.playStream(ytdl(server.queue[0], {filter: "audioonly"}));
-  
-    server.queue.shift();
-  
-    server.dispatcher.on("end", function() { 
-      if (server.queue[0]) play(connection, message);
-  
-      else connection.disconnect();
-  
-    });
-  }
 
 client.on("ready", () => {
     console.log("prêt")

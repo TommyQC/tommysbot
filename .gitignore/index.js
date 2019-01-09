@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+cccccconst Discord = require('discord.js');
 
 const client = new Discord.Client();
 
@@ -17,14 +17,6 @@ client.on('message', message => {
 
     if (message.content === "Bonjour"){
         message.reply("Hey, salut comment ça va?");
-        console.log('le bot dit bonjour');
-    }
-});
-
-client.on('message', message => {
-
-    if (message.content === "non"){
-        message.reply("euh oui");
         console.log('le bot dit bonjour');
     }
 });
@@ -106,14 +98,6 @@ client.on('message', message => {
 
     if (message.content === "avec plaisir"){
         message.reply("Hooo je vois que tu est poli");
-        console.log('le bot dit bonjour');
-    }
-});
-
-client.on('message', message => {
-
-    if (message.content === "oui"){
-        message.reply("ou non? mdr");
         console.log('le bot dit bonjour');
     }
 });

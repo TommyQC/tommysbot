@@ -1,4 +1,4 @@
-cccccconst Discord = require('discord.js');
+const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
@@ -60,7 +60,6 @@ client.on('message', message => {
         console.log('le bot dit bonjour');
     }
 });
-+
 
 client.on('message', message => {
 

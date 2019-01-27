@@ -31,6 +31,14 @@ client.on('message', message => {
 
 client.on('message', message => {
 
+    if (message.content === "il est rejet"){
+        message.reply("Tu parle de toi la?");
+        console.log('le bot dit bonjour');
+    }
+});
+
+client.on('message', message => {
+
     if (message.content === "bien"){
         message.reply("Good Good");
         console.log('le bot dit bonjour');

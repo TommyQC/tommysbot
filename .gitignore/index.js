@@ -23,7 +23,15 @@ client.on('message', message => {
 
 client.on('message', message => {
 
-    if (message.content === "Ça va"){
+    if (message.content === "ça va bien"){
+        message.reply("Cool, c'est super ça!");
+        console.log('le bot dit bonjour');
+    }
+});
+
+client.on('message', message => {
+
+    if (message.content === ("ça va"){
         message.reply("Cool, c'est super ça!");
         console.log('le bot dit bonjour');
     }
